@@ -1,0 +1,39 @@
+.box{
+    width:50%;
+    height:70vh;
+    border:2px solid brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin:2% auto;
+    border-radius: 20px;
+}
+
+.img-box{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.img-box img{
+    width:90%;
+    height:50vh;
+    object-fit: contain;
+}
+#btn{
+    width:100px;
+    height:30px;
+}
+@media (max-width:600px)
+{
+    .box{
+        width: 80%;
+        gap:10px;
+    }
+    .img-box img{
+        width:100%;
+        height:50vh;
+        object-fit: contain;
+    }
+}
